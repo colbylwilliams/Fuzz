@@ -13,11 +13,11 @@ namespace Fuzz
 	public static class TestDataProvider
 	{
 #if __ANDROID__
-		public static async Task InitTestDataAsync (Android.App.Activity context)
+		public static void InitTestDataAsync (Android.App.Activity context)
 		{
 			await Task.Delay (10);
 #else
-		public static async Task InitTestDataAsync ()
+		public static void InitTestDataAsync ()
 		{
 #endif
 			try

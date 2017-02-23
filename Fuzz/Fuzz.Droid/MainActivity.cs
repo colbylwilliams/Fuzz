@@ -13,6 +13,8 @@ namespace Fuzz.Droid
 		{
 			base.OnCreate (savedInstanceState);
 
+			ServiceStack.AndroidPclExportClient.Configure ();
+
 			// Set our view from the "main" layout resource
 			SetContentView (Resource.Layout.Main);
 
