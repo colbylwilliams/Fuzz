@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>{0BFB17A5-4583-4252-80EF-ED635C82BA17}</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>Fuzz.Shared</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)MyClass.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)TestDataProvider.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ElevatorStatus.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Location.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Elevator.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Company.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)OtisClient.cs" />
+  </ItemGroup>
+</Project>
