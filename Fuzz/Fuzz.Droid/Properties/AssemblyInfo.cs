@@ -8,9 +8,9 @@ using Android.App;
 [assembly: AssemblyTitle ("Fuzz.Droid")]
 [assembly: AssemblyDescription ("")]
 [assembly: AssemblyConfiguration ("")]
-[assembly: AssemblyCompany ("")]
+[assembly: AssemblyCompany ("Xamarin | Microsoft")]
 [assembly: AssemblyProduct ("")]
-[assembly: AssemblyCopyright ("")]
+[assembly: AssemblyCopyright ("Copyright © 2016 Colby Williams")]
 [assembly: AssemblyTrademark ("")]
 [assembly: AssemblyCulture ("")]
 

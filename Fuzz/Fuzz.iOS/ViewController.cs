@@ -1,7 +1,6 @@
 ﻿using System;
 
 using UIKit;
-using Fuzz.Shared;
 
 namespace Fuzz.iOS
 {
@@ -16,8 +15,6 @@ namespace Fuzz.iOS
 		{
 			base.ViewDidLoad ();
 			// Perform any additional setup after loading the view, typically from a nib.
-
-			TestDataProvider.GetView ();
 		}
 
 		public override void DidReceiveMemoryWarning ()

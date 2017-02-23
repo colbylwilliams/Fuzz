@@ -4,7 +4,7 @@ using Android.OS;
 
 namespace Fuzz.Droid
 {
-	[Activity (Label = "Fuzz", MainLauncher = true, Icon = "@mipmap/icon")]
+	[Activity (Label = "Fuzz.Droid", MainLauncher = true, Icon = "@mipmap/icon")]
 	public class MainActivity : Activity
 	{
 		int count = 1;

@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>CFBundleName</key>
-	<string>Fuzz</string>
+	<string>Fuzz.iOS</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.xamarin.fuzz</string>
+	<string>com.colbylwilliams.fuzz-ios</string>
 	<key>CFBundleShortVersionString</key>
 	<string>1.0</string>
 	<key>CFBundleVersion</key>
